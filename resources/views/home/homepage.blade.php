@@ -8,6 +8,7 @@
                 <div class="col-4 mb-5">
                     <div class="card">
                         <div class="card-body">
+                            <img src="{{asset('storage/' . $article->image)}}" alt="{{$article->title}}" class="img-responsive">
                             <h5 class="card-title">{{$article->title}}</h5>
                             <p class="card-text">{{$article->description}}</p>
                         </div>

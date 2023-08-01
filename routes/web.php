@@ -18,4 +18,4 @@ use App\Http\Controllers\ArticleController;
 Route::get('/', [HomeController::class, 'homepage'])->name('homepage');
 
 Route::get('/articles', [ArticleController::class, 'create'])->name('articles');
-Route::post('/articles-submit', [ArticleController::class, 'store'])->name('articles-submit');
+Route::post('/articles', [ArticleController::class, 'store'])->name('articles-submit');
